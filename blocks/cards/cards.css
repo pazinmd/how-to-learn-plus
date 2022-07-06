@@ -1,0 +1,14 @@
+@import url('./__description/cards__description.css');
+@import url('./__image/cards__image.css');
+@import url('./__item/cards__item.css');
+@import url('./__title/cards__title.css');
+.cards {
+    display: grid;
+    grid-column-gap: 100px;
+    grid-row-gap: 0;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    width: 920px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
